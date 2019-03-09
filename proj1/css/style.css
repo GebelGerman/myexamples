@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: Arial , sans-serif;
+}
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+header{
+    background: url('../img/first-bg.jpg') no-repeat center top / cover ;
+    height: 700px;
+}
+div {
+    box-sizing: border-box;/*чтобы не изменялся размер*/
+}
+#logo{
+    margin-top: 41px;
+    float: left;
+}
+header nav{
+    float: right;
+    text-transform: uppercase;
+}
+menu ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+menu li{
+    color:white;
+    float: left;
+    display: block;
+    margin-top: 48px;
+    margin-right: 40px;
+}
+menu li a{
+    color:white;
+}
+.titles{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.titles p{    
+    margin-top: 200px;
+    font-size: 40px;
+}
+.titles h1{
+    margin-top: 15px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+header button{
+    text-transform: uppercase;
+    display: block;
+    background: #fed136;
+    color: rgb(99, 99, 99);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 240px;
+    height: 65px;
+    margin: 0 auto;
+}
+
